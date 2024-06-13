@@ -38,7 +38,10 @@ We propose an advanced availability checking system for the Divisional Secretari
 
 - Node.js
 - npm
-- React
+- Nextjs
+- Html
+- Css
+- Javascript
 
 ### Steps
 
