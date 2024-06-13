@@ -1,0 +1,218 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu_main{
+    list-style-type: none;
+    text-align: center;
+    background-color: #071952;
+    margin: 0px;
+    height: 60px;
+    padding: 0;
+
+    
+}
+.menu li{
+    display: inline-block;
+    padding: 0;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    bottom: 55px;
+}
+.logo{
+    width: 35%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    position: relative;
+    top: 0px;
+}
+.polygon{
+    display: inline;
+    position: relative;
+    top: 1px;
+}
+.sign_in{
+    display: inline-block;
+    position: relative;
+    left: 620px;
+    bottom: 127px;
+    background-color: #35A29F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.No_bck{
+    background-color: #071952;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+    border: none;
+}
+.head_topic{
+  display: block;
+  width: 100%;
+  background-image: url('Rectangle\ 43.jpg'); 
+  background-size: cover; 
+  height: 100%;
+  background-repeat: no-repeat;
+  
+}
+.img_topic{
+    display: block;
+    font-size: 70px;
+    color: white;
+    position: relative;
+    top: 440px;
+    left: 880px;
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+}
+.province_topic{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.province{
+    margin: 100px 200px;
+    
+}
+.province h2{
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 300px;
+    padding: 20px 30px;
+    text-align: left;
+    border-radius: 20px;
+    color: #0B666A;
+    font-weight: bold; 
+}
+.footer{
+    background-color:#071952;
+    color: white;
+    padding: 10px 30px;
+    display: block;
+    height: 260px;
+
+
+
+}
+
+.p_button{
+    text-decoration: none;
+    border: none;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 360px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    color: #0B666A;
+    font-weight: bold;
+    font-size: 24px; 
+}
+.p_button:hover{
+    background-color: #E7C873;
+}
+.info{
+    position: relative;
+    display: inline;
+    top: 9px;
+    
+    
+   
+}
+.left_footer{
+    display: inline-block;
+    float: left;
+    width: 600px;
+   
+}
+.details{
+    
+    position: relative;
+    right: 100px;
+    display: block;
+    float: right;
+    
+}
+
+.c_img{
+    width: 3%;
+}
+.team_logo{
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+#western{
+    padding: 0px;
+    display: block;
+    width: 360px;
+    
+}
+#westernp{
+    display:none;
+    background-color: #0B666A;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+.westernd{
+    padding-left:100px;
+}
+.westernd h2{
+background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+width: 300px;
+padding: 20px 30px;
+text-align: left;
+border-radius: 20px;
+color: #0B666A;
+font-weight: bold;}
+
+#w_p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+.colombo_link{
+    text-decoration: none;
+}
+.colombo_link:hover{
+    background-color: #E7C873;
+}
+.dis_text{
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+
+}
+.dis_text h3{
+    color:#E7C873;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px ;
+   
+}

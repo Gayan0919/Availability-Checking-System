@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+        }
+        .image-section {
+            flex: 1;
+            background:"  url";
+            background-size: cover ;
+            background-position: center;
+    
+        }
+        img.login {
+            width: 100%;
+             height: 100%;
+             align-items: center;
+        }
+        .login-section {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .login-section h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .login-form p {
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .login-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-section label {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+        .login-section input {
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-section .remember-me {
+            display: flex;
+            align-items: center;
+        }
+        .login-section .remember-me input {
+            margin-right: 10px;
+        }
+        .login-section button {
+            padding: 10px;
+            font-size: 14px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-section button:hover {
+            background-color: #218838;
+        }
+        .login-section .register {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .login-section .register a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .login-section .register a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="image 5.png" alt=" login" class="login" >
+        </div>
+        <div class="login-section">
+            <h2>Account Login</h2>
+            <p>If you are already a member you can login with your ID Number and password.</p>
+            <form>
+                <label for="id-number">ID Number</label>
+                <input type="text" id="id-number" name="id-number" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <button type="submit">Register Account</button>
+            </form>
+            <div class="register">
+                <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
