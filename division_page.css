@@ -1,0 +1,569 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu_main{
+    list-style-type: none;
+    text-align: center;
+    background-color: #071952;
+    margin: 0px;
+    height: 60px;
+    padding: 0;
+
+    
+}
+.menu li{
+    display: inline-block;
+    padding: 0;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    bottom: 55px;
+}
+.logo{
+    width: 35%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    position: relative;
+    top: 0px;
+}
+.polygon{
+    display: inline;
+    position: relative;
+    top: 1px;
+}
+.sign_in{
+    display: inline-block;
+    position: relative;
+    left: 620px;
+    bottom: 127px;
+    background-color: #35A29F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.No_bck{
+    background-color: #071952;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+    border: none;
+}
+.head_topic{
+  display: block;
+  width: 100%;
+  background-image: url('Rectangle\ 43.jpg'); 
+  background-size: cover; 
+  height: 100%;
+  background-repeat: no-repeat;
+  
+}
+.img_topic{
+    display: block;
+    font-size: 70px;
+    color: white;
+    position: relative;
+    top: 220px;
+    left: 880px;
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+}
+.province_topic{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.province{
+    margin: 50px 160px;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 1200px;
+    border-radius: 20px;
+    
+}
+.number{
+    position: relative;
+    display: block;
+    left: 170px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email{
+    position: relative;
+    display: block;
+    left: 300px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.number8{
+    position: relative;
+    display: block;
+    left: 143px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email8{
+    position: relative;
+    display: block;
+    left: 276px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check8{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 445px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number9{
+    position: relative;
+    display: block;
+    left: 158px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email9{
+    position: relative;
+    display: block;
+    left: 290px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check9{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 478px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number10{
+    position: relative;
+    display: block;
+    left: 162px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+.number11{
+    position: relative;
+    display: block;
+    left: 138px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email11{
+    position: relative;
+    display: block;
+    left: 277px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check11{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 475px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number12{
+    position: relative;
+    display: block;
+    left: 200px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email12{
+    position: relative;
+    display: block;
+    left: 340px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check12{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 567px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number13{
+    position: relative;
+    display: block;
+    left: 115px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email13{
+    position: relative;
+    display: block;
+    left: 256px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check13{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 440px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number14{
+    position: relative;
+    display: block;
+    left: 150px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email14{
+    position: relative;
+    display: block;
+    left: 292px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check14{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 475px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number15{
+    position: relative;
+    display: block;
+    left: 160px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email15{
+    position: relative;
+    display: block;
+    left: 305px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check15{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 498px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number16{
+    position: relative;
+    display: block;
+    left: 125px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email16{
+    position: relative;
+    display: block;
+    left: 268px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check16{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 472px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number17{
+    position: relative;
+    display: block;
+    left: 125px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email17{
+    position: relative;
+    display: block;
+    left: 263px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check17{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 452px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.number18{
+    position: relative;
+    display: block;
+    left: 75px;
+    top: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.email18{
+    position: relative;
+    display: block;
+    left: 213px;
+    top: 5px;  
+    font-style: italic;
+    font-weight: 100;
+}
+.availability_check18{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 0px 20px;
+    position: relative;
+    left: 405px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.province h2{
+
+    padding: 0px 30px;
+    text-align: left;
+    border-radius: 20px;
+    color: #0B666A;
+    font-weight: bold; 
+}
+.footer{
+    background-color:#071952;
+    color: white;
+    padding: 10px 30px;
+    display: block;
+    height: 260px;
+
+
+
+}
+.info{
+    position: relative;
+    display: inline;
+    top: 9px;
+    
+    
+   
+}
+.left_footer{
+    display: inline-block;
+    float: left;
+    width: 600px;
+   
+}
+.details{
+    
+    position: relative;
+    right: 100px;
+    display: block;
+    float: right;
+    
+}
+
+.c_img{
+    width: 3%;
+}
+.team_logo{
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+.selectd_topic{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 310px;
+    background-color: #0B666A;
+    padding: 1px 0px;
+}
+.sd_p{
+    margin: 40px 160px;
+}
+.sd_p h2{
+    background-color: #0B666A;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 600px;
+    padding: 20px 30px;
+    text-align: left;
+    border-radius: 20px;
+    color:white ;
+    font-weight: bold;
+
+}
+.arrow_img{
+    width: 3%;
+}
+.availability_check{
+    background-color: #08AD36;
+    border: none;
+    margin: 10px;
+    padding: 15px 20px;
+    position: relative;
+    left: 490px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.availability_check:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+    
+}
+.availability_check8:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check9:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check10:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check11:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check12:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+    
+}
+.availability_check13:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check14:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check15:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check16:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check17:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.availability_check18:hover{
+    background-color:#0B666A;
+    color:#E7C873 ;
+}
+.province a{
+}
